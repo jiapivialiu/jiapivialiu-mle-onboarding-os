@@ -1,0 +1,29 @@
+[
+  {
+    "source_id": "mock-task-01",
+    "source_type": "message",
+    "source_ref": "https://example.org/mock/task-01",
+    "observed_at": "2026-01-01T09:00:00Z",
+    "summary": "需要检查模拟系统设置文档",
+    "kind": "task",
+    "data": {"title": "Review mock setup guide"}
+  },
+  {
+    "source_id": "mock-person-01",
+    "source_type": "directory",
+    "source_ref": "https://example.org/mock/person-01",
+    "observed_at": "2026-01-01T10:00:00Z",
+    "summary": "模拟联系人记录",
+    "kind": "person",
+    "data": {"display_name": "Example Person", "email": "person@example.org", "role": "Colleague", "external_id": "mock:person-01"}
+  },
+  {
+    "source_id": "mock-context-01",
+    "source_type": "document",
+    "source_ref": "https://example.org/mock/context-01",
+    "observed_at": "2026-01-01T11:00:00Z",
+    "summary": "模拟知识文档已更新",
+    "kind": "context",
+    "data": {}
+  }
+]

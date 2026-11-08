@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+build/
+dist/
+.DS_Store
+# Never commit real workspace records or credentials.
+workspace/
+*.secret
+.env
+.env.*
